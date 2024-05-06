@@ -1,68 +1,65 @@
-# Git Integration & Wix CLI <img align="left" src="https://user-images.githubusercontent.com/89579857/185785022-cab37bf5-26be-4f11-85f0-1fac63c07d3b.png">
+ 	
+																																																						INTRODUCTION
 
-This repo is part of Git Integration & Wix CLI, a set of tools that allows you to write, test, and publish code for your Wix site locally on your computer. 
-
-Connect your site to GitHub, develop in your favorite IDE, test your code in real time, and publish your site from the command line.
-Contributing
-We welcome contributions from the community to enhance and improve the WildGuardAfrica (or AnimalsProtection) website project. To contribute, please follow these steps:
-
-Fork this repository.
-Create a new branch for your feature or bug fix:
-css
-Copy code
-git checkout -b feature-name
-Make your changes and commit them:
-sql
-Copy code
-git add .
-git commit -m "Your commit message here"
-Push your changes to your fork:
-perl
-Copy code
-git push origin feature-name
-Open a pull request against the main branch of this repository.
-
-Contact
-For questions or inquiries about the project, feel free to contact us at cpe.programmer7@gmail.com.
+Our team created an online web project which is an initiative dedicated to the conservation and protection of animals and their natural habitats. This report shows our work and inspirations from selecting WIX as our Content Management System (CMS) and pushing the web project codes/files to GitHub repository.
 
 
+CHOOSING WIX CMS:
+WIX was our choice Content Management System due to its user-friendly interface, a wide library of templates to choose from, more customization options and its ability to integrate with other developer tools. These features of WIX CMS aligned well with our WildGuardAfrica project objectives of creating a universal, informative, and appealing website. After comparing many different alternatives including Web Flow, WordPress, and Text Pattern we found that WIX was a perfect choice for our web project.
 
-## Set up this repository in your IDE
-This repo is connected to a Wix site. That site tracks this repo's default branch. Any code committed and pushed to that branch from your local IDE appears on the site.
 
-Before getting started, make sure you have the following things installed:
-* [Git](https://git-scm.com/download)
-* [Node](https://nodejs.org/en/download/), version 14.8 or later.
-* [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) or [yarn](https://yarnpkg.com/getting-started/install)
-* An SSH key [added to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+PROJECT DEVELOPMENT PROCESS:
+Our project planning process started with outlining our goals and performing the planning phase. We defined our target audience and our project’s audience includes almost people of all ages as an SDG (13). We outlined the website’s structure and came up with the key objectives.
+After the planning phase was done, we jumped into the design and implementation phase. Leveraging WIX’s templates, design tools and features, we crafted a visually appealing website that highlights the importance of animals and environment conservation.
+Content creation- we crated content for our website, we researched and incorporated informative articles, sourced high-quality imagery and multimedia content, we also make sure that the information was well presented and was accurate and engaging. 
+The following images shows some designs in WIX editor:
+ 
+ 
+During the project development process, we made sure that collaboration, communication and teamwork was undertaken among team members. We divided tasks among all team members based on one’s strengths and we also shared regular updates throughout the process in our WhatsApp group.
 
-To set up your local environment and start coding locally, do the following:
+ 
+ 
 
-1. Open your terminal and navigate to where you want to store the repo.
-1. Clone the repo by running `git clone <your-repository-url>`.
-1. Navigate to the repo's directory by running `cd <directory-name>`.
-1. Install the repo's dependencies by running `npm install` or `yarn install`.
-1. Install the Wix CLI by running `npm install -g @wix/cli` or `yarn global add @wix/cli`.  
-   Once you've installed the CLI globally, you can use it with any Wix site's repo.
+ 
+CHAT IN USE: Contact Us Chat:
+ 
 
-For more information, see [Setting up Git Integration & Wix CLI](https://support.wix.com/en/article/velo-setting-up-git-integration-wix-cli-beta).
+DATABASE:
+We used Google Cloud MySQL Database for the web project:
+ 
+ 
 
-## Write Velo code in your IDE
-Once your repo is set up, you can write code in it as you would in any other non-Wix project. The repo's file structure matches the [public](https://support.wix.com/en/article/velo-working-with-the-velo-sidebar#public), [backend](https://support.wix.com/en/article/velo-working-with-the-velo-sidebar#backend), and [page code](https://support.wix.com/en/article/velo-working-with-the-velo-sidebar#page-code) sections in Editor X.
+PUSHING THE FILES TO GITHUB REPOSITORY:
+We used GitHub for version control of our project and to make the project accessible to all team members and for collaboration purposes. We configured version control, ensuring that all team members could access and contribute to the project’s success.
+ 
 
-Learn more about [this repo's file structure](https://support.wix.com/en/article/velo-understanding-your-sites-github-repository-beta).
+Pushing the WildGuardAfrica project to GitHub was a smooth process and we used the developer mode of WIX Content Management System to link WIX with our GitHub account. 
 
-## Test your code with the Local Editor
-The Local Editor allows you test changes made to your site in real time. The code in your local IDE is synced with the Local Editor, so you can test your changes before committing them to your repo. You can also change the site design in the Local Editor and sync it with your IDE.
 
-Start the Local Editor by navigating to this repo's directory in your terminal and running `wix dev`.
+ 
+On the other hand, we encountered minor challenges related to resolving merger conflicts and ensuring consistency in coding standards and also integrating different tools. Through effective communication and teamwork, these issues were promptly addressed, allowing us to maintain a clean and organized work.
+The following image shows the GitHub repository of our WildGuardAfrica project:
+ 
+Project Files as Downloaded from GitHub repository,
+ 
 
-For more information, see [Working with the Local Editor](https://support.wix.com/en/article/velo-working-with-the-local-editor-beta).
+CONCLUSION:
+In conclusion, our experience of creating the WildGuardAfrica or AnimalsProtection website with WIX CMS and pushing the code files to GitHub was both rewarding and educational. We successfully leveraged WIX's features to develop a visually appealing, universal and informative platform dedicated to animal conservation. GitHub served as an invaluable tool for version control, facilitating seamless collaboration among team members.
 
-## Preview and publish with the Wix CLI
-The Wix CLI is a tool that allows you to work with your site locally from your computer's terminal. You can use it to build a preview version of your site and publish it. You can also use the CLI to install [approved npm packages](https://support.wix.com/en/article/velo-working-with-npm-packages) to your site.
+ACKKNOWLEDGEMENTS:
+We would like to express our gratitude to our lecturer for giving us a chance to gain experience with web projects development, Content Management Systems and using the GitHub platform. We also thank all team members who contributed to the success of the WildGuardAfrica project.
 
-Learn more about [working with the Wix CLI](https://support.wix.com/en/article/velo-working-with-the-wix-cli-beta).
 
-## Invite contributors to work with you
-Git Integration & Wix CLI extends Editor X's [concurrent editing](https://support.wix.com/en/article/editor-x-about-concurrent-editing) capabilities. Invite other developers as collaborators on your [site](https://support.wix.com/en/article/inviting-people-to-contribute-to-your-site) and your [GitHub repo](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository). Multiple developers can work on a site's code at once.
+REFERENCES:
+1.	https://www.youtube.com/watch?v=aBaBCOughWo&t=14s&pp=ygUYY29ubmVjdGluZyB3aXggdG8gZ2l0aHVi (Connect a WIX site to GitHub)
+2.	https://cpeprogrammer7.wixsite.com/wildguardafrica (Our project’s URL)
+3.	Wix.com
+4.	Setting Up Git Integration & Wix CLI (WIX DEV SUPPORT)
+5.	GitHub Project Link:  https://github.com/SeanMavhima/wildguardafrica/
+6. README File Direct Link: https://github.com/SeanMavhima/wildguardafrica/blob/main/README.md
+
+
+
+
+
+
