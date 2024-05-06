@@ -3,6 +3,29 @@
 This repo is part of Git Integration & Wix CLI, a set of tools that allows you to write, test, and publish code for your Wix site locally on your computer. 
 
 Connect your site to GitHub, develop in your favorite IDE, test your code in real time, and publish your site from the command line.
+Contributing
+We welcome contributions from the community to enhance and improve the WildGuardAfrica (or AnimalsProtection) website project. To contribute, please follow these steps:
+
+Fork this repository.
+Create a new branch for your feature or bug fix:
+css
+Copy code
+git checkout -b feature-name
+Make your changes and commit them:
+sql
+Copy code
+git add .
+git commit -m "Your commit message here"
+Push your changes to your fork:
+perl
+Copy code
+git push origin feature-name
+Open a pull request against the main branch of this repository.
+
+Contact
+For questions or inquiries about the project, feel free to contact us at cpe.programmer7@gmail.com.
+
+
 
 ## Set up this repository in your IDE
 This repo is connected to a Wix site. That site tracks this repo's default branch. Any code committed and pushed to that branch from your local IDE appears on the site.
